@@ -10,6 +10,7 @@ public class Customer {
 	Customer(String fname, String lname) {
 		this.fname = fname;
 		this.lname = lname;
+		items = new ArrayList<Item>();
 	}
 	
 	String getFullName() {
