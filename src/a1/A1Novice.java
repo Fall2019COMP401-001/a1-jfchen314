@@ -19,9 +19,10 @@ public class A1Novice {
 			for(int j = 0; j < itemCount; j++) {
 				cust.addItem(scan.nextInt(), scan.next(), scan.nextDouble());
 			}
+			customers.add(cust);
 		}
 		scan.close();
-		
+		System.out.println(customers.size());
 		for(Customer c : customers) {
 			System.out.println(
 					c.getShortName() + ": " + String.format("%.2f", c.getTotal()));
