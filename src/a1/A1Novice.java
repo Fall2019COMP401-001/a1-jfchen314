@@ -22,7 +22,6 @@ public class A1Novice {
 			customers.add(cust);
 		}
 		scan.close();
-		System.out.println(customers.size());
 		for(Customer c : customers) {
 			System.out.println(
 					c.getShortName() + ": " + String.format("%.2f", c.getTotal()));
