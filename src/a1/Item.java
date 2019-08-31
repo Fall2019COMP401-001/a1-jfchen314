@@ -15,12 +15,16 @@ public class Item {
 		return name;
 	}
 	
-	double getTotal() {
-		return quantity * price;
-	}
-	
 	int getCount() {
 		return quantity;
+	}
+	
+	double getPrice() {
+		return price;
+	}
+	
+	double getTotal() {
+		return quantity * price;
 	}
 	
 	void add(int num) {
