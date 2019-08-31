@@ -1,21 +1,16 @@
 package a1;
 
 import java.util.ArrayList;
-import java.util.Hashtable;
 import java.util.Scanner;
 
 public class A1Jedi {
 
-	static private String priceFormat(double price) {
-		return String.format("%.2f", price);
-	}
-	
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
 		String[] store;
 		ArrayList<Customer> customers = new ArrayList<Customer>();
-
+		
 		int count = scan.nextInt();
 		store = new String[count];
 		for(int i = 0; i < count; i++) {

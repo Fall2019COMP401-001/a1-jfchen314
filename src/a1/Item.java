@@ -22,4 +22,8 @@ public class Item {
 	int getCount() {
 		return quantity;
 	}
+	
+	void add(int num) {
+		quantity += num;
+	}
 }
