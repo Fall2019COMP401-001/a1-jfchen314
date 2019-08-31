@@ -32,4 +32,11 @@ public class Customer {
 		}
 		return total;
 	}
+	
+	int getItem(String name) {
+		for(Item i: items) {
+			if(i.getName().equals(name)) return i.getCount();
+		}
+		return 0;
+	}
 }

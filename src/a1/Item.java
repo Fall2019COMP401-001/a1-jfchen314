@@ -18,4 +18,8 @@ public class Item {
 	double getTotal() {
 		return quantity * price;
 	}
+	
+	int getCount() {
+		return quantity;
+	}
 }
